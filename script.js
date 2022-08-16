@@ -1,11 +1,12 @@
 let player = 0;
 let squares = document.querySelectorAll(".square");
-let arr = [];
 
 const getElement = (element) => {
   if (element.textContent != "") {
-    document.querySelector("h5").textContent = "Chega fi, cabo a graça";
+    document.querySelector(".alert").textContent =
+      "Por favor, selecione um quadrado que ainda não foi preenchido";
   } else {
+    document.querySelector(".alert").textContent = "";
     if (player == 0) {
       element.textContent = "X";
       player = 1;
