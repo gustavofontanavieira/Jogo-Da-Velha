@@ -11,7 +11,7 @@ body {
 }
 
 .game-body {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .text {
@@ -91,4 +91,24 @@ body {
   border-top-width: 0;
   border-bottom-width: 0;
   border-right-width: 0;
+}
+
+.mt {
+  width: 6rem;
+  height: 2.8rem;
+  background-color: rgb(21, 140, 49);
+  color: rgb(255, 255, 255);
+  border-radius: 999rem;
+  border: 1px solid rgba(0, 0, 0, 0.444);
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+  transition: transform 250ms ease;
+}
+
+.mt:hover {
+  transform: scale(1.1);
 }
